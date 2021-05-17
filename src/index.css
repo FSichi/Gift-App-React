@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  padding: 70px;
+
+}
+
+input{
+  width: 100%;
+  font-size: 2rem;
+  color: rgb(65, 41, 11);
+}
+
+.sepG{
+  width: 100%;
+  height: 5px;
+  background-color: rgb(57, 179, 132);
+  
+}
+
+.sep{
+
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+
+}
+
+.titleGnrl{
+  font-size: 3rem;
+}
+
+.formStyle{
+  margin-bottom: 20px;
+}
+
+.titleCat{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cardGrid{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+ 
+}
+
+.card{
+
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+
+}
+
+.card p{
+  
+  padding: 5px;
+  text-align:center
+}
+
+.card img{
+  max-height: 175px;
 }
