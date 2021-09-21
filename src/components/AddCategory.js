@@ -14,7 +14,7 @@ export const AddCategory = ( {setCategories} ) => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        if(inputValue.trim().length > 2){
+        if(inputValue.trim().length > 0){
             setCategories( cats => [inputValue, ...cats] );
             setInputValue('');
         }
@@ -23,11 +23,14 @@ export const AddCategory = ( {setCategories} ) => {
     return (
         
         <form onSubmit={handleSubmit} className="formStyle">
+            <h2 className="titleGnrl">Buscar Categoria
             <input
                 type="text"
                 value={inputValue}
                 onChange={ handleInputChange }
             />
+            <i class="fas fa-search-plus"></i>
+            </h2>
         </form>   
     );
 }
