@@ -64,10 +64,7 @@ export const NavBar = ({setCategories}) => {
                     } )
                 }
             </ul>
-        </nav>
-        
-        
+        </nav>    
     )
- 
 }
 
